@@ -32,3 +32,16 @@ body {
     padding: 2%;
     box-shadow: 10px 10px;
 }
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 580px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+        height: 30%;
+    }
+}
