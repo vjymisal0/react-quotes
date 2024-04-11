@@ -45,6 +45,11 @@ body {
         width: 80%;
         height: 30%;
     }
+
+    .heading {
+        height: 300px;
+    }
+
 }
 
 .button {
@@ -61,3 +66,12 @@ body {
     cursor: pointer;
     border-radius: 25px;
 }
+
+.button:hover {
+    transition: 0.6s;
+    background-color: rgb(26, 117, 220);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    color: white;
+}
+
+/* animations */
