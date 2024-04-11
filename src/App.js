@@ -6,10 +6,14 @@ class App extends React.Component {
     advice: ''
   };
   componentDidMount() {
-    axios.get()
+    this.fetchAdvice();
   }
   fetchAdvice = () => {
-
+    axios.get('https://api.adviceslip.com/advice').then((response) => {
+      console.log(response)
+    }).catch((error) => {
+      console.log(error)
+    })
   }
   render() {
     return (
