@@ -50,6 +50,10 @@ body {
         height: 300px;
     }
 
+    .button {
+        padding: 12px 20px;
+    }
+
 }
 
 .button {
